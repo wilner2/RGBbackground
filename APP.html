@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Trabalho pratico modulo 1</title>
+    <link rel="stylesheet" href="./APP.css" />
+  </head>
+  <body>
+    <div id="particles-js">
+      <h1>Trabalho pratico modulo 1</h1>
+      <div id="panel">
+        <div id="rgb">
+          <span>(R) Vermelho: </span>
+          <span>(G) Verde: </span>
+          <span>(B) Azul: </span>
+        </div>
+        <div id="ranges">
+          <input type="range" min="0" max="255" class="range" id="red" />
+          <input type="range" min="0" max="255" class="range" id="green" />
+          <input type="range" min="0" max="255" class="range" id="blue" />
+        </div>
+        <div id="values">
+          <input
+            id="valuered"
+            type="text"
+            disabled
+            class="inputvalues"
+            size="2px"
+          />
+          <input
+            id="valuegreen"
+            type="text"
+            disabled
+            class="inputvalues"
+            size="2px"
+          />
+          <input
+            id="valueblue"
+            type="text"
+            disabled
+            class="inputvalues"
+            size="2px"
+          />
+        </div>
+      </div>
+    </div>
+
+    <script src="http://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <script src="particles.js"></script>
+    <script src="./APP.js"></script>
+  </body>
+</html>
